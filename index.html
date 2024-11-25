@@ -51,7 +51,7 @@
     </div>
     <script language="javascript">
         function updateTimer() {
-            var start = new Date("2020-11-25 20:30:00"); // 2020.11
+            var start = new Date('2020-11-25T20:30:00Z'); // 2020.11
             var t = new Date().getTime() - start.getTime(); // 当前时间与开始时间的差值
 
             var d = Math.floor(t / (1000 * 60 * 60 * 24)); // 计算天数
